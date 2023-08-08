@@ -1,0 +1,257 @@
+
+.container{
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+}
+@media screen and (max-width: 900px) {
+    header nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+.menu{
+    display: flex;
+    margin-left: 130vh;
+}
+
+.menu-list li {
+  display: inline-block;
+  margin-right: 20px; 
+
+}
+
+.menu-list li:last-child {
+  margin-right: 0;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.contenu1{
+    width: 100%;
+    display: flex;
+    margin-top: 10vh;
+    background-color: rgb(25, 25, 42);
+    height: 90vh;
+    
+}
+.texte,.contenue{
+    width: 50%;
+}
+.contenue img{
+    margin-top:10vh;
+    margin-left: 10vh;
+}
+.texte{
+    margin: 40px;
+    text-align: center;
+}
+.texte h1{
+    margin-top: 10vh;
+    color: rgb(90, 90, 241);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.texte p{
+    margin: 20px;
+    color: whitesmoke;
+}
+.texte span{
+    color: rgb(74, 74, 230);
+}
+.texte a{
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 20px;
+   
+}
+.texte button{
+    background-color: mediumpurple;
+    height: 15vh;
+    width: 60vh;
+    border-radius: 90px;
+
+}
+@media screen and (max-width: 900px) {
+    .contenu1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+.row{
+    margin: 20vh;
+    
+}
+.titre h1{
+    margin-left: 90vh;
+    margin-top: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formulaire{
+     background-color: rgb(25, 25, 42);
+    height: 100vh;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 20vh;
+}
+.main h1{
+    font-size: 30px;
+    color: #3b3ba1;
+    margin-top: 20%;
+}
+.form-row {
+    display: flex;
+    gap: 10px; 
+    margin: 0 -5px; 
+    width: 100%; 
+    justify-content: space-between; 
+    margin-top: 10%;
+}
+
+.form-group {
+    flex: 1;
+    margin-bottom: 15px;
+}
+.form-group label{
+    color: wheat;
+}
+.textarea-large {
+    height: 160px; 
+    width: 190vh;
+}
+.buttone button{
+    width: 50vh;
+    height: 10vh;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: hsl(240, 35%, 55%);
+}
+.buttone a{
+    text-decoration: none;
+    color: white;
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 90px;
+}
+.icone{
+    font-size: 5vh;
+    
+}
+.icone a{
+    color: black;
+}
+.propos{
+    background-color: #120E43;
+    height: 250vh;
+}
+.conte{
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+   
+    
+   
+   
+}
+
+.section1 h1{
+    margin-left: 90vh;
+    color: #c7c7e9;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 10vh;
+    margin-top: 10vh;
+    
+}
+.section1 p{
+     margin-left: 70vh;
+     margin-top: 10vh;
+    color: white;
+}
+.section2 h3{
+    color: white;
+    margin-left: 120vh;
+    font-family: 'Fjalla One', sans-serif;
+    margin-top: 10vh;
+    font: 40vh;
+}
+.section2 li{
+    margin-left: 80vh;
+    color: white;
+}
+.btn{
+     margin-left: 80vh;
+     margin-top: 10vh;
+}
+.custom-table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 10%;
+ margin: 20vh;
+}
+
+.custom-table td {
+  border: 2px solid rgb(141, 141, 212);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+.small-cell {
+  font-size: 12px;
+}
+
+.large-cell {
+  font-size: 18px;
+  height: 30vh;
+}
+.tarif{
+    color: rgb(198, 164, 164);
+    margin-left: 100vh;
+    margin-top: 20vh;
+}
+.sections{
+    background-color: #120E43;
+    margin-top: 5%;
+    height: 40vh;
+}
+.sections h1{
+    color: #b6b6f5;
+    font-size: 4rem;
+    margin-left: 30vh;
+}
+.titre h2{
+    margin-top: 10%;
+    margin-left: 10vh;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.photo .card{
+  width: 100%; 
+  
+  max-height:60vh;
+
+}
+
+.card-img-top {
+  width: 100%; 
+  height: 60vh; 
+  object-fit: cover; 
+}
